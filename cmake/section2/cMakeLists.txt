@@ -1,0 +1,15 @@
+# 要求版本号
+cmake_minimum_required(VERSION 2.6)
+
+# 项目名称
+project(mathDemo)
+
+# 生成可执行文件
+# 需要的所有文件 此处和下面都可以顺利执行
+# add_executable(add main.c math.c)
+
+# 指定当前目录 到一个变量SOURCE_DIR
+aux_source_directory(. SOURCE_DIR)
+
+# 将目录下的文件生成可执行文件
+add_executable(add ${SOURCE_DIR})
