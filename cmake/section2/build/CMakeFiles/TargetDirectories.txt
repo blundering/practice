@@ -1,0 +1,3 @@
+/Users/rubin/practice/cmake/section2/build/CMakeFiles/rebuild_cache.dir
+/Users/rubin/practice/cmake/section2/build/CMakeFiles/edit_cache.dir
+/Users/rubin/practice/cmake/section2/build/CMakeFiles/add.dir
