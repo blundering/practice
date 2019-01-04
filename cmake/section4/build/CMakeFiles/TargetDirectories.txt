@@ -1,0 +1,6 @@
+/Users/rubin/practice/cmake/section4/build/CMakeFiles/rebuild_cache.dir
+/Users/rubin/practice/cmake/section4/build/CMakeFiles/edit_cache.dir
+/Users/rubin/practice/cmake/section4/build/CMakeFiles/add.dir
+/Users/rubin/practice/cmake/section4/build/math/CMakeFiles/rebuild_cache.dir
+/Users/rubin/practice/cmake/section4/build/math/CMakeFiles/edit_cache.dir
+/Users/rubin/practice/cmake/section4/build/math/CMakeFiles/Math.dir

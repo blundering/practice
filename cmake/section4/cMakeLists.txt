@@ -1,0 +1,18 @@
+# 声明cmake最低版本要求
+cmake_minimum_required(VERSION 2.6)
+
+# 定义项目名称
+project(multiDirDemo)
+
+# 添加子目录
+# 并将名称保存到 SOURCE_DIR 变量
+aux_source_directory(. SOURCE_DIR)
+
+# 生成可执行文件
+add_executable(add ${SOURCE_DIR})
+
+# 添加math子目录 生成过程会去子目录根据子目录的cMakeLists.txt进行相应操作
+add_subdirectory(math)
+
+# 添加链接库
+target_link_libraries(add Math)
