@@ -4,6 +4,7 @@
   2. [编译根目录下多个文件](./cmake/section2)
   3. [编译多个目录下文件](./cmake/section3)
   4. [编译多个目录下文件,生成链接库](./cmake/section4)
+  5. [cmake时生成.h头文件](./cmake/section5)
 
   tips: 在根目录运行`cmake .`之后会生成一堆make相关的文件,怎么清理?aha 俺不知道...
   
