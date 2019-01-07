@@ -5,6 +5,7 @@
   3. [编译多个目录下文件](./cmake/section3)
   4. [编译多个目录下文件,生成链接库](./cmake/section4)
   5. [cmake时生成.h头文件](./cmake/section5)
+  6. [PROJECT_SOURCE_DIR和PROJECT_BINARY_DIR的区别](./cmake/section6)
 
   tips: 在根目录运行`cmake .`之后会生成一堆make相关的文件,怎么清理?aha 俺不知道...
   
