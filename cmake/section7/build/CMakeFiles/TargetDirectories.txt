@@ -1,0 +1,14 @@
+/Users/rubin/practice/cmake/section7/build/CMakeFiles/install/local.dir
+/Users/rubin/practice/cmake/section7/build/CMakeFiles/rebuild_cache.dir
+/Users/rubin/practice/cmake/section7/build/CMakeFiles/edit_cache.dir
+/Users/rubin/practice/cmake/section7/build/CMakeFiles/install/strip.dir
+/Users/rubin/practice/cmake/section7/build/CMakeFiles/install.dir
+/Users/rubin/practice/cmake/section7/build/CMakeFiles/list_install_components.dir
+/Users/rubin/practice/cmake/section7/build/CMakeFiles/add.dir
+/Users/rubin/practice/cmake/section7/build/math/CMakeFiles/install/local.dir
+/Users/rubin/practice/cmake/section7/build/math/CMakeFiles/install/strip.dir
+/Users/rubin/practice/cmake/section7/build/math/CMakeFiles/install.dir
+/Users/rubin/practice/cmake/section7/build/math/CMakeFiles/list_install_components.dir
+/Users/rubin/practice/cmake/section7/build/math/CMakeFiles/rebuild_cache.dir
+/Users/rubin/practice/cmake/section7/build/math/CMakeFiles/edit_cache.dir
+/Users/rubin/practice/cmake/section7/build/math/CMakeFiles/Math.dir

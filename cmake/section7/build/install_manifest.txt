@@ -1,0 +1,4 @@
+/usr/local/bin/add
+/usr/local/include/main.h
+/usr/local/bin/libMath.a
+/usr/local/include/math.h
