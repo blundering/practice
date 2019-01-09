@@ -7,6 +7,7 @@
   5. [cmake时生成.h头文件](./cmake/section5)
   6. [PROJECT_SOURCE_DIR和PROJECT_BINARY_DIR的区别](./cmake/section6)
   7. [INSTALL命令的使用](./cmake/section7)
+  8. [TEST的使用](./cmake/section8)
 
   tips: 在根目录运行`cmake .`之后会生成一堆make相关的文件,怎么清理?aha 俺不知道...
   
