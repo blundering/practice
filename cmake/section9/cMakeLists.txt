@@ -1,0 +1,67 @@
+# 声明cmake最低版本要求
+cmake_minimum_required(VERSION 2.6)
+
+# 定义项目名称
+project(multiDirDemo)
+
+# 添加子目录
+# 并将名称保存到 SOURCE_DIR 变量
+aux_source_directory(. SOURCE_DIR)
+
+# 生成可执行文件
+add_executable(add ${SOURCE_DIR})
+
+# 添加math子目录 生成过程会去子目录根据子目录的cMakeLists.txt进行相应操作
+add_subdirectory(math)
+
+# 添加链接库
+target_link_libraries(add Math)
+
+# #section5 新增配置 和 根目录main.h.in 文件一个#
+# 设置变量值 在.h.in中通过@变量名@引用 生成.h文件用.
+set(VERSION_MAJOR 1)
+set(VERSION_MINOR 0)
+
+# ${PROJECT_SOURCE_DIR} 源文件根目录
+# ${PROJECT_BINARY_DIR} make 生成可执行文件的目录?
+configure_file(
+    "${PROJECT_SOURCE_DIR}/main.h.in"
+    "${PROJECT_BINARY_DIR}/main.h"
+)
+
+# 将binary目录添加到include path.以便程序中的 `#include "main.h"` 加载生成的头文件.
+include_directories("${PROJECT_BINARY_DIR}")
+
+# 安装
+install (TARGETS add DESTINATION bin)
+install (FILES "${PROJECT_BINARY_DIR}/main.h" DESTINATION include)
+
+# 测试 `CTest`不区分大小写?
+include (CTest) 
+# 看看程序是否能跑起来
+add_test(add1_2 add)
+
+# 匹配输出是否包含指定结果
+add_test(add1_2 add 1 2)
+set_tests_properties(add1_2 PROPERTIES PASS_REGULAR_EXPRESSION "1 and 2 is 3")
+
+add_test(add0_0 add 0 0)
+set_tests_properties(add0_0 PROPERTIES PASS_REGULAR_EXPRESSION "0 is 0")
+
+add_test(add1_-1 add 1 -1)
+set_tests_properties(add1_-1 PROPERTIES PASS_REGULAR_EXPRESSION "is 0")
+
+add_test(add1_-11 add 1 -11)
+set_tests_properties(add1_-11 PROPERTIES PASS_REGULAR_EXPRESSION "1 and -11 is 0")
+
+# 定义宏简化测试操作
+macro(do_test arg1 arg2 result)
+    add_test(add${arg1}_${arg2} add ${arg1} ${arg2})
+    set_tests_properties(add${arg1}_${arg2} PROPERTIES PASS_REGULAR_EXPRESSION ${result})
+endmacro(do_test)
+
+# 使用宏
+do_test(2 2 "2 and 2 is 3")
+do_test(0 0 "0 is not 0")
+do_test(11 -1 "is 10")
+do_test(1 -11 "1 and -11 is -10")

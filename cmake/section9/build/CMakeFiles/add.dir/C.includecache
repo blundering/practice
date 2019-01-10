@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rubin/practice/cmake/section9/main.c
+stdio.h
+-
+stdlib.h
+-
+main.h
+/Users/rubin/practice/cmake/section9/main.h
+math/math.h
+/Users/rubin/practice/cmake/section9/math/math.h
+
+/Users/rubin/practice/cmake/section9/math/math.h
+
+main.h
+

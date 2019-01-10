@@ -1,0 +1,111 @@
+Start testing: Jan 10 20:59 CST
+----------------------------------------------------------
+1/6 Testing: add1_2
+1/6 Test: add1_2
+Command: "/Users/rubin/practice/cmake/section9/build/add" "1" "2"
+Directory: /Users/rubin/practice/cmake/section9/build
+"add1_2" start time: Jan 10 20:59 CST
+Output:
+----------------------------------------------------------
+1 and 2 is 3
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[1 and 2 is 3
+]
+"add1_2" end time: Jan 10 20:59 CST
+"add1_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: add0_0
+2/6 Test: add0_0
+Command: "/Users/rubin/practice/cmake/section9/build/add" "0" "0"
+Directory: /Users/rubin/practice/cmake/section9/build
+"add0_0" start time: Jan 10 20:59 CST
+Output:
+----------------------------------------------------------
+0 and 0 is 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found.Regex=[0 is not 0
+]
+"add0_0" end time: Jan 10 20:59 CST
+"add0_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: add1_-1
+3/6 Test: add1_-1
+Command: "/Users/rubin/practice/cmake/section9/build/add" "1" "-1"
+Directory: /Users/rubin/practice/cmake/section9/build
+"add1_-1" start time: Jan 10 20:59 CST
+Output:
+----------------------------------------------------------
+1 and -1 is 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[is 0
+]
+"add1_-1" end time: Jan 10 20:59 CST
+"add1_-1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: add1_-11
+4/6 Test: add1_-11
+Command: "/Users/rubin/practice/cmake/section9/build/add" "1" "-11"
+Directory: /Users/rubin/practice/cmake/section9/build
+"add1_-11" start time: Jan 10 20:59 CST
+Output:
+----------------------------------------------------------
+1 and -11 is -10
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[1 and -11 is -10
+]
+"add1_-11" end time: Jan 10 20:59 CST
+"add1_-11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: add2_2
+5/6 Test: add2_2
+Command: "/Users/rubin/practice/cmake/section9/build/add" "2" "2"
+Directory: /Users/rubin/practice/cmake/section9/build
+"add2_2" start time: Jan 10 20:59 CST
+Output:
+----------------------------------------------------------
+2 and 2 is 4
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found.Regex=[2 and 2 is 3
+]
+"add2_2" end time: Jan 10 20:59 CST
+"add2_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: add11_-1
+6/6 Test: add11_-1
+Command: "/Users/rubin/practice/cmake/section9/build/add" "11" "-1"
+Directory: /Users/rubin/practice/cmake/section9/build
+"add11_-1" start time: Jan 10 20:59 CST
+Output:
+----------------------------------------------------------
+11 and -1 is 10
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[is 10
+]
+"add11_-1" end time: Jan 10 20:59 CST
+"add11_-1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 10 20:59 CST
