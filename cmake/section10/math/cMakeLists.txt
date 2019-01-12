@@ -1,0 +1,8 @@
+# 将当前目录下所有源文件名保存到变量 MATH_SOURCE
+aux_source_directory(. MATH_SOURCE)
+
+# 生成链接库
+add_library(Math ${MATH_SOURCE})
+
+install (TARGETS Math DESTINATION bin)
+install (FILES math.h DESTINATION include)

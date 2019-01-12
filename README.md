@@ -8,7 +8,10 @@
   6. [PROJECT_SOURCE_DIR和PROJECT_BINARY_DIR的区别](./cmake/section6)
   7. [INSTALL命令的使用](./cmake/section7)
   8. [TEST的使用](./cmake/section8)
-  8. [使用宏简化TEST配置代码](./cmake/section9)
+  9. [使用宏简化TEST配置代码](./cmake/section9)
+  10. [CheckFunctionExists检测系统是否支持某函数](./cmake/section10)
+
+
   tips: 在根目录运行`cmake .`之后会生成一堆make相关的文件,怎么清理?aha 俺不知道...
   
   但是,可以在生成之前 在根目录创建一个子文件夹 用于存放生成的文件.
