@@ -10,7 +10,7 @@
   8. [TEST的使用](./cmake/section8)
   9. [使用宏简化TEST配置代码](./cmake/section9)
   10. [CheckFunctionExists检测系统是否支持某函数](./cmake/section10)
-
+  11. [cpack生成包](./cmake/section11)
 
   tips: 在根目录运行`cmake .`之后会生成一堆make相关的文件,怎么清理?aha 俺不知道...
   
