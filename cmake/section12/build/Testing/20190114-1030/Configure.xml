@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20190114-1030-Experimental"
+	Name="bogon"
+	Generator="ctest-3.12.4"
+	CompilerName="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++"
+	CompilerVersion="10.0.0.10001145"
+	OSName="Mac OS X"
+	Hostname="bogon"
+	OSRelease="10.14.2"
+	OSVersion="18C54"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="70"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="7168"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2200"
+	>
+	<Configure>
+		<StartDateTime>Jan 14 18:30 CST</StartDateTime>
+		<StartConfigureTime>1547461852</StartConfigureTime>
+		<ConfigureCommand>"/usr/local/Cellar/cmake/3.12.4/bin/cmake" "/Users/rubin/practice/cmake/section12"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/rubin/practice/cmake/section12/build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Jan 14 18:30 CST</EndDateTime>
+		<EndConfigureTime>1547461852</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

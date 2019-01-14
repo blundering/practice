@@ -1,0 +1,9 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Test.xml
+Using drop method: http
+	Upload file: /Users/rubin/practice/cmake/section12/build/Testing/20190114-1036/Build.xml to bogon___Darwin-c++___20190114-1036-Experimental___XML___Build.xml
+   Error when uploading file: /Users/rubin/practice/cmake/section12/build/Testing/20190114-1036/Build.xml
+   Error message was: Bad URL
+   Problems when submitting via HTTP
