@@ -23,3 +23,6 @@
   $ make
   ```
   这样生成的相关文件会在[build](./cmake/section2/build)子目录.
+
+* go
+  1. [web输出helloWorld](./go/section1)
