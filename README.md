@@ -28,6 +28,7 @@
     1. [web 服务端之输出 helloWorld](./go/section1)
     2. [客户端之获取接口 json 并转为变量](./go/section2)
     3. [web 服务端之使用模板](./go/section3)
+    4. [web 服务端之使用模板创建一个表格](./go/section4)
 
 * php
     1. [composer 常用命令](./php/)

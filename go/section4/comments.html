@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }}</title>
+    {{/*添加 table css/脚本文件*/}}
+    <script
+            src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <table id="myTable" class="display">
+        <thead>
+        <tr>
+            <td>name</td>
+            <td>email</td>
+            <td>content</td>
+        </tr>
+        </thead>
+        <tbody>
+            {{ range $key, $value := .Comments}}
+            <tr>
+                <td>{{ $value.Name }}</td>
+                <td>{{ $value.Email }}</td>
+                <td>{{ $value.Body }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</body>
+{{/*初始化 table*/}}
+<script>
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+</script>
+</html>
