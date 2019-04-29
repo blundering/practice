@@ -39,3 +39,4 @@
 
 * rust
     1. [rust 之 hello world](./rust/section1)
+    2. [cargo new 创建包](./rust/section2)
