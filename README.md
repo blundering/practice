@@ -38,5 +38,5 @@
     1.  [基于 foundation-sdk 编写的sdk](./php/foundation-sdk)
 
 * rust
-    1. [rust 之 hello world](./rust/section1)
-    2. [cargo new 创建包](./rust/section2)
+    1. [rust 之 hello world](./rust/1-rustc)
+    2. [cargo new 创建包](./rust/2-cargo)
