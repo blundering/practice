@@ -36,3 +36,6 @@
 
 * php-github-practice
     1.  [基于 foundation-sdk 编写的sdk](./php/foundation-sdk)
+
+* rust
+    1. [rust 之 hello world](./rust/section1)
