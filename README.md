@@ -42,3 +42,4 @@
     2. [cargo new 创建包](./rust/2-cargo)
     3. [guessing game 猜数字游戏](./rust/3-guessing-game)
     4. [struct](./rust/4-struct)
+    5. [minigrep](./rust/5-minigrep)
